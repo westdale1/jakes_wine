@@ -13,7 +13,7 @@ function App() {
         alt="Jake's Wines"
         className="logo"
       />
-      <p className="coming-soon">Coming soon!</p>
+      <p className="coming-soon">Wholesale Wine Merchant Coming Soon!</p>
     </main>
   )
 }
