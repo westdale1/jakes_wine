@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import logo from './assets/Jakes-Wines_Logo_White_512px.png'
+import logo from './assets/Jakes_Wines_Logo_Pack/03_Web_White_Background/Jakes-Wines_Logo_White_512px.png'
 import './App.css'
 import './App.css'
 
