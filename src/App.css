@@ -1,21 +1,43 @@
 .landing-page {
   min-height: 100vh;
+  min-height: 100svh;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+
+  padding: 24px;
+  text-align: center;
 }
 
 .logo {
-  width: min(500px, 80vw);
+  width: min(520px, 82vw);
   height: auto;
+  display: block;
 }
 
 .coming-soon {
-  margin: 0;
-  font-size: 1rem;
-  letter-spacing: 0.2em;
+  margin: 22px 0 0;
+
+  font-size: 0.9rem;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
   color: #1f3d63;
+}
+
+@media (max-width: 600px) {
+  .landing-page {
+    padding: 20px;
+  }
+
+  .logo {
+    width: min(360px, 88vw);
+  }
+
+  .coming-soon {
+    margin-top: 18px;
+    font-size: 0.8rem;
+    letter-spacing: 0.18em;
+  }
 }
